@@ -39,7 +39,7 @@ async function tebakbucin(req, res) {
     readFileJson('./lib/data/tebakbucin.json').then(result => {
         res.status(200).send({
             status: 200, 
-            Pertanyaan: result.Pertanyaan, 
+            pertanyaan: result.pertanyaan, 
             jawaban: result.jawaban
         });
     }).catch(error => {
