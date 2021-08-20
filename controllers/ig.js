@@ -30,20 +30,20 @@ async function igStalk(req, res) {
         .then(result => {
         res.status(200).send({
         	  status: 200,
-              profile: result.graphql.user.profile_pic_url,
-              profilehd: result.graphql.user.profile_pic_url_hd,
-              fullname: result.graphql.user.full_name,
-              private: result.graphql.user.is_private,
-              verified: result.graphql.user.is_verified,
-              bio: result.graphql.user.biography,
-              follower: result.graphql.user.edge_followed_by.count,
-              following: result.graphql.user.edge_follow.count,
-              conneted_fb: result.graphql.user.connected_fb_page,
-              videotimeline: result.graphql.user.edge_felix_video_timeline.count,
-              timeline: result.graphql.user.edge_owner_to_timeline_media.count,
-              savedmedia: result.graphql.user.edge_saved_media.count,
-              collections: result.graphql.user.edge_media_collections.count
-          });
+profile: result.profile_pic_url,
+              profilehd: result.profile_pic_url_hd,
+              fullname: result.full_name,
+              private: result.is_private,
+              verified: result.is_verified,
+              bio: result.biography,
+              follower: result.edge_followed_by.count,
+              following: result.edge_follow.count,
+              conneted_fb: result.connected_fb_page,
+              videotimeline: result.edge_felix_video_timeline.count,
+              timeline: result.edge_owner_to_timeline_media.count,
+              savedmedia: result.edge_saved_media.count,
+              collections: result.edge_media_collections.count
+        });
         }).catch(error => {
         console.log(error);
         res.status(500).send({status: 500, message: 'Username tidak ditemukan!'});
