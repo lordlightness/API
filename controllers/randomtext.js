@@ -146,6 +146,7 @@ async function motivasi(req, res) {
         res.status(500).send({status: 500, message: 'Internal Server Error'});
     });
 }
+
 async function cyberspace(req, res) {
     const apikey = req.query.apikey;
     if (apikey === undefined) return res.status(404).send({
@@ -164,4 +165,5 @@ async function cyberspace(req, res) {
         res.status(500).send({status: 500, message: 'Internal Server Error'});
     });
 }
+
 module.exports = {cakLontong, tebakbucin, quotes, bijak, fakta, ptl, motivasi, cyberspace };
