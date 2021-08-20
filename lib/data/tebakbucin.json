@@ -1,42 +1,42 @@
 [
-"{
-        "Pertanyaan": "Panda panda apa yang bikin seneng?",
+{
+        "pertanyaan": "Panda panda apa yang bikin seneng?",
         "jawaban": "Pandangin kamu setiap saat"
-}",
-"{
-        "Pertanyaan": "Tiang tiang apa yang enak?",
+},
+{
+        "pertanyaan": "Tiang tiang apa yang enak?",
         "jawaban": "Tiang-tiang mikirin kamu sambil minum es campur;"
-}",
-"{
-        "Pertanyaan": "Kamu tahu gak malam malam apa yang menakutkan?",
+},
+{
+        "pertanyaan": "Kamu tahu gak malam malam apa yang menakutkan?",
         "jawaban": "Malam-malamku tanpa kamu"
-}",
-"{
-        "Pertanyaan": "Tahu gak kuda apa yang bikin senang?",
+},
+{
+        "pertanyaan": "Tahu gak kuda apa yang bikin senang?",
         "jawaban": "kudapatkan cintamu"
-}",
-"{
-        "Pertanyaan": "Mandi apa yang nggak basah?",
+},
+{
+        "pertanyaan": "Mandi apa yang nggak basah?",
         "jawaban": "Mandirikan Rumah tangga Bersamamu"
-}",
-"{
-        "Pertanyaan": "Malam Apa Yang Paling Indah?",
+},
+{
+        "pertanyaan": "Malam Apa Yang Paling Indah?",
         "jawaban": "malamarmu"
-}",
-"{
-        "Pertanyaan": "Ngemil Apa Yang Paling Enak?",
+},
+{
+        "pertanyaan": "Ngemil Apa Yang Paling Enak?",
         "jawaban": "Ngemilikin kamu seutuhnya"
-}",
-"{
-        "Pertanyaan": "Apa bedanya tanggal 28 sama 29 Oktober? ",
-        "jawaban": "28 Oktober itu sumpah pemuda kalau 29 Oktober sumpah aku sayang kamu"
-}",
-"{
-        "Pertanyaan": "tinta apa yang enggak bisa luntur?",
+},
+{
+        "pertanyaan": "Apa bedanya tanggal 28 sama 29 Oktober? ",
+        "jawaban": Kalo 28 Oktober itu sumpah pemuda kalau 29 Oktober sumpah aku sayang kamu"
+},
+{
+        "pertanyaan": "tinta apa yang enggak bisa luntur?",
         "jawaban": "tintaku padamu"
-}",
-"{
-        "Pertanyaan": "Kuping, kuping apa yang menjadi impian? ",
+},
+{
+        "pertanyaan": "Kuping, kuping apa yang menjadi impian? ",
         "jawaban": "Kupingin kamu menjadi pendamping hidupku "
-}"
+}
 ]
