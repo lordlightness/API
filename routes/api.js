@@ -38,6 +38,6 @@ router.get('/ptl', ptl);
 
 router.get('/motivasi', motivasi);
 
-router.get('/cyberspace, cyberspace);
+router.get('/cyberspace', cyberspace);
 
 module.exports = router;
