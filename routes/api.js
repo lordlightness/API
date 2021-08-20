@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { cekKey } = require('../database/db'); 
 const { youtubePlay, youtubeMp4, youtubeMp3 } = require('../controllers/yt');
-const { cakLontong, tebakbucin, bijak, quotes, fakta, ptl, motivasi } = require('../controllers/randomtext');
+const { cakLontong, tebakbucin, bijak, quotes, fakta, ptl, motivasi, cyberspace } = require('../controllers/randomtext');
 
 router.get('/checkkey', async (req, res) => {
     const apikey = req.query.apikey;
@@ -37,5 +37,7 @@ router.get('/bijak', bijak);
 router.get('/ptl', ptl);
 
 router.get('/motivasi', motivasi);
+
+router.get('/cyberspace, cyberspace);
 
 module.exports = router;
