@@ -3,7 +3,7 @@ const router = express.Router();
 const { cekKey } = require('../database/db'); 
 const { youtubePlay, youtubeMp4, youtubeMp3 } = require('../controllers/yt');
 const { cakLontong, tebakbucin, bijak, quotes, fakta, ptl, motivasi, cyberspace } = require('../controllers/randomtext');
-
+const { igStalk, igDownload } = require('../controllers/ig');
 router.get('/checkkey', async (req, res) => {
     const apikey = req.query.apikey;
     if (apikey === undefined) return res.status(404).send({
@@ -39,5 +39,9 @@ router.get('/ptl', ptl);
 router.get('/motivasi', motivasi);
 
 router.get('/cyberspace', cyberspace);
+
+router.get('/igstalk', igStalk);
+
+router.get('/igDownload', igDownload);
 
 module.exports = router;
