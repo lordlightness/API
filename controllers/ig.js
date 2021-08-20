@@ -1,6 +1,7 @@
 const ig = require("instatouch");
 const dotenv = require('dotenv').config()
 const sID = process.env.sID;
+const { cekKey } = require('../database/db');
 
 const options = {
   count: 0,
