@@ -30,7 +30,7 @@ async function igStalk(req, res) {
         .then(result => {
         res.status(200).send({
         	  status: 200,
-profile: result.profile_pic_url,
+              profile: result.profile_pic_url,
               profilehd: result.profile_pic_url_hd,
               fullname: result.full_name,
               private: result.is_private,
