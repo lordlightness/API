@@ -147,4 +147,4 @@ async function motivasi(req, res) {
     });
 }
 
-module.exports = {cakLontong, quotes, bijak, fakta, ptl, motivasi };
+module.exports = {cakLontong, tebakbucin, quotes, bijak, fakta, ptl, motivasi };
