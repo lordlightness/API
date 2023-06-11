@@ -14,7 +14,7 @@ async function youtubePlay(req, res) {
         message: `apikey ${apikey} not found, please register first!`
     });
     ytPlay(query).then(result => {
-        res.status(200).send({status: 200, result: result});
+        res.status(200).send({status: 200, result});
     }).catch(error => {
         console.log(error);
         res.status(500).send({
@@ -37,7 +37,7 @@ async function youtubeMp3(req, res) {
         message: `apikey ${apikey} not found, please register first!`
     });
     ytMp3(url).then(result => {
-        res.status(200).send({status: 200, result: result});
+        res.status(200).send({status: 200, result});
     }).catch(error => {
         console.log(error);
         res.status(500).send({
@@ -62,7 +62,7 @@ async function youtubeMp4(req, res) {
     ytMp4(url).then(result => {
         res.status(200).send({
             status: 200, 
-            result: result
+            result
         });
     }).catch(error => {
         console.log(error);
